@@ -1,0 +1,236 @@
+{
+  "title": "Gestione corsi di formazione interna",
+  "description": "Prototipo navigabile per consultare il catalogo dei corsi, verificare date e disponibilità e gestire le iscrizioni.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo del catalogo e delle disponibilità dei corsi.",
+      "metrics": [
+        {
+          "label": "Corsi attivi",
+          "value": "12"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "86"
+        },
+        {
+          "label": "Prossimi corsi",
+          "value": "4"
+        },
+        {
+          "label": "Iscrizioni aperte",
+          "value": "9"
+        }
+      ],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Posti disponibili"
+      ],
+      "rows": [
+        [
+          "Scrittura chiara",
+          "Lumo Riva",
+          "12/06/2026",
+          "8"
+        ],
+        [
+          "Strumenti digitali",
+          "Vela Neri",
+          "18/06/2026",
+          "12"
+        ],
+        [
+          "Organizzazione del lavoro",
+          "Nubi Serra",
+          "24/06/2026",
+          "6"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "catalogo-corsi",
+      "title": "Catalogo corsi",
+      "description": "Elenco filtrabile dei corsi con docente, date e posti disponibili.",
+      "metrics": [
+        {
+          "label": "Corsi in catalogo",
+          "value": "12"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "86"
+        }
+      ],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Orario",
+        "Posti disponibili",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Scrittura chiara",
+          "Lumo Riva",
+          "12/06/2026",
+          "09:00–12:00",
+          "8",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Strumenti digitali",
+          "Vela Neri",
+          "18/06/2026",
+          "14:00–17:00",
+          "12",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Organizzazione del lavoro",
+          "Nubi Serra",
+          "24/06/2026",
+          "09:30–12:30",
+          "6",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Collaborazione tra gruppi",
+          "Timo Fari",
+          "02/07/2026",
+          "10:00–13:00",
+          "10",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Presentazioni efficaci",
+          "Mira Lodi",
+          "09/07/2026",
+          "09:00–12:00",
+          "0",
+          "Completo"
+        ],
+        [
+          "Gestione delle priorità",
+          "Plico Vanni",
+          "16/07/2026",
+          "14:00–17:00",
+          "7",
+          "Iscrizioni aperte"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "gestione-corsi",
+      "title": "Gestione corsi",
+      "description": "Aggiungi corsi al catalogo o aggiorna le informazioni organizzative.",
+      "metrics": [],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Orario",
+        "Posti disponibili",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Scrittura chiara",
+          "Lumo Riva",
+          "12/06/2026",
+          "09:00–12:00",
+          "8",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Strumenti digitali",
+          "Vela Neri",
+          "18/06/2026",
+          "14:00–17:00",
+          "12",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Organizzazione del lavoro",
+          "Nubi Serra",
+          "24/06/2026",
+          "09:30–12:30",
+          "6",
+          "Iscrizioni aperte"
+        ]
+      ],
+      "form": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Orario",
+        "Posti disponibili",
+        "Stato"
+      ]
+    },
+    {
+      "id": "iscrizioni",
+      "title": "Iscrizioni",
+      "description": "Consulta e gestisci le iscrizioni associate ai corsi, usando identificativi interni di fantasia.",
+      "metrics": [
+        {
+          "label": "Iscrizioni registrate",
+          "value": "24"
+        },
+        {
+          "label": "In attesa",
+          "value": "3"
+        },
+        {
+          "label": "Confermate",
+          "value": "21"
+        }
+      ],
+      "columns": [
+        "Corso",
+        "Partecipante",
+        "Data iscrizione",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Scrittura chiara",
+          "Ari Lume",
+          "03/06/2026",
+          "Confermata"
+        ],
+        [
+          "Strumenti digitali",
+          "Tavi Nubi",
+          "04/06/2026",
+          "Confermata"
+        ],
+        [
+          "Organizzazione del lavoro",
+          "Seli Vela",
+          "05/06/2026",
+          "In attesa"
+        ],
+        [
+          "Collaborazione tra gruppi",
+          "Rumi Plico",
+          "06/06/2026",
+          "Confermata"
+        ]
+      ],
+      "form": [
+        "Corso",
+        "Partecipante",
+        "Data iscrizione",
+        "Stato"
+      ]
+    }
+  ]
+}
